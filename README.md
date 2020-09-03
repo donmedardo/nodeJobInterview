@@ -92,47 +92,51 @@ Antes de dar una definición y los requerimientos, es importante que conozcas de
 
 No tengo experiencia en desarrollo node pero creo que la siguiente extructura podria funcionar mejor para un proyecto con node para api rest:
 
-
+```
 src : que contenga los contenedores 
 └───api  :            controladores
 └───config:           configuracion necesaria
 └───models:           representacion de los objetos 
 └───services          para ponerl la logica del negocio
-
+```
 
 ---
 
 - [ ] ¿Consideras que el proyecto debe tener una arquitectura bien definida?
 
-Todo proyecto por mas pequeño que sea debe desarrollarse basado en una arquitectura para que tenga exito.
+ *Todo proyecto por mas pequeño que sea debe desarrollarse basado en una arquitectura para que tenga exito.*
 
 ---
 
 - [ ] ¿Consideras que el proyecto necesita más pruebas unitarias? 
 
-No he tenido la oportunidad pero las programacion orientado en pruebas TDD es la que tiene mejores resultados en menor esfuerzo
+*No he tenido la oportunidad pero las programacion orientado en pruebas TDD es la que tiene mejores resultados en menor esfuerzo*
 
 --- 
 
 - [ ] ¿Consideras que deberías escribir pruebas para implementar el requerimiento obligatorio?
 
-SI
+*SI*
 
 ---
 - [ ] ¿Consideras que deberías seguir alguna estrategia de versionamiento? 
-El versionamiento en necesario mas a un cuando se trabaja en equipos de desarrollo.
+
+*El versionamiento en necesario mas a un cuando se trabaja en equipos de desarrollo.*
 
 ---
 - [ ] ¿Consideras que deberías seguir alguna estrategia de branching? 
-Para trabajar en equipo es genial.. me gusta gitflow para ayudarme en la gestion de ramas
+
+*Para trabajar en equipo es genial.. me gusta gitflow para ayudarme en la gestion de ramas*
 
 ---
 - [ ] ¿Consideras que deberías tener una imagen Docker para el proyecto actual? 
-No he tenido la oporunidad de trabajar mucho con docker pero pensaria que no por ser un proyecto pequeño que con versionamiento se lo puede usar rapidamente
+
+*No he tenido la oporunidad de trabajar mucho con docker pero pensaria que no por ser un proyecto pequeño que con versionamiento se lo puede usar rapidamente*
 
 ---
 - [ ] ¿Consideras que deberías publicar tu contenedor en algún contenedor de registros? (DockerHub, Github Packages, etc.).
-Si usas contenedores es ideal tener el contenedor en un repositorio de contenedores
+
+*es ideal tener el contenedor en un repositorio de contenedores por temas de portabilidad*
 
 ---
 - [ ] ¿Consideras que deberías desplegar la aplicación con o sin contenedor?
@@ -141,8 +145,8 @@ Creo que sin contenedor funciona bien
 ---
 
 - [ ] ¿Te gustaría desplegar esta aplicación en algun servicio en la nube (GCP, AWS, Heroku, etc.)?
-para pruebas heroku estaria bien.
-Si va a necesitar trafico tocaria analizar que opcion es la mejor.
+*para pruebas yo usaria heroku en version de prueba.
+Si va a necesitar trafico tocaria analizar que opcion es la mejor.*
 
 ---
 
@@ -340,3 +344,10 @@ Nota: No te compliques la vida solo relájate y disfruta el tiempo de analizar y
 Si tienes alguna duda, escribe a <david.nunez@ppm.com.ec> detallando tu duda y te responderémos lo más pronto posible.
 
 Happy coding ;) 
+
+
+
+# SOLUCION
+
+El api para filtrar por tipo lo puedes probar con el siguiente end point `http://localhost:3000/fiterByKind?kind=servicio A` 
+
