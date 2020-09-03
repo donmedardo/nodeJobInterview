@@ -1,0 +1,50 @@
+- kind: servicio A
+  spec:
+    - name: keyServA1
+      description: credenciales del servicio A.
+      key: "user"
+      value: "password"
+      allowedEmails:
+        - "*@*"
+    - name: keyServA2
+      description: credenciales del servicio A.
+      key: "user"
+      value: "password"
+      allowedEmails:
+        - "*gmail.com"
+    - name: keyServA3
+      description: credenciales del servicio A
+      key: "user"
+      value: "password"
+      allowedEmails:
+        - "usuarioA@gmail.com"
+        - "usuarioB@gmail.com"
+    - name: keyServA4
+      description: credenciales del servicio A
+      key: "user"
+      value: "password"
+      allowedEmails:
+        - "usuarioC*gmail.com"
+- kind: servicio B
+  spec:
+    - name: keyServB1
+      description: credenciales del servicio B.
+      key: "user"
+      value: "password"
+      allowedEmails:
+        - "*@gmail.com"
+        - "*@hotmail.com"
+    - name: keyServB2
+      description: credenciales del servicio B.
+      key: "user"
+      value: "password"
+      allowedEmails:
+        - "*@hotmail.com"
+- kind: servicio N
+  spec:
+    - name: keyServN1
+      description: credenciales del servicio N.
+      key: "user"
+      value: "password"
+      allowedEmails:
+        - "*@yahoo"

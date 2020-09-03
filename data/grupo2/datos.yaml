@@ -1,0 +1,22 @@
+- kind: servicio C
+  spec:
+    - name: keyServC
+      description: credenciales del servicio C permitidos para todos los correos electrónicos.
+      key: "user"
+      value: "password"
+      allowedEmails:
+        - "*"
+    - name: keyServC
+      description: credenciales del servicio C permitidos para los correos electrónicos de live.
+      key: "user"
+      value: "password"
+      allowedEmails:
+        - "*live.com"
+    - name: keyServC
+      description: credenciales del servicio C permitidos para los correos electrónicos usuarioC*ppm.com.ec, usuarioD*ppm.com.ec y usuarioE*ppm.com.ec
+      key: "user"
+      value: "password"
+      allowedEmails:
+        - "usuarioC*ppm.com.ec"
+        - "usuarioD*ppm.com.ec"
+        - "usuarioE*ppm.com.ec"
