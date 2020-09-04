@@ -126,7 +126,7 @@ src : que contenga los contenedores
 ---
 - [ ] ¿Consideras que deberías seguir alguna estrategia de branching? 
 
-*Para trabajar en equipo es genial.. me gusta gitflow para ayudarme en la gestion de ramas*
+*Para trabajar en equipo es genial.. me gusta gitflow para ayudarme en la gestion de ramas por el momento todo esta en la rama master*
 
 ---
 - [ ] ¿Consideras que deberías tener una imagen Docker para el proyecto actual? 
@@ -140,13 +140,17 @@ src : que contenga los contenedores
 
 ---
 - [ ] ¿Consideras que deberías desplegar la aplicación con o sin contenedor?
-Creo que sin contenedor funciona bien
+
+*Creo que sin contenedor funciona bien*
 
 ---
 
 - [ ] ¿Te gustaría desplegar esta aplicación en algun servicio en la nube (GCP, AWS, Heroku, etc.)?
-*para pruebas yo usaria heroku en version de prueba.
-Si va a necesitar trafico tocaria analizar que opcion es la mejor.*
+
+*Para pruebas yo usaria heroku en version de prueba.* 
+`https://apinodechallenger.herokuapp.com/`
+
+*Si va a necesitar trafico tocaria analizar que opcion es la mejor.*
 
 ---
 
