@@ -8,7 +8,7 @@ const converter = require('./lib/converter');
 
 //configuration
 const app = express();
-const port = 3000
+let port = process.env.PORT || 3000;
 
 //basic auth
 app.use(basicAuth({
